@@ -2,6 +2,8 @@
 body{
     font-family:'Work Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
     
 }
 
@@ -97,8 +99,48 @@ body{
     color: white;
     font-size: 16px;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 120px 130px;
+}
+.container-description h3{
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+.container-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top:0px ;
 
-
+}
+.container-description ul li{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top:10px ;
+}
+.container-description button{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    width: 174px;
+    height: 52px;
+    color: aliceblue;
+}
+.container-description h3{
+    font-size: 30px;
+}
+.container-img img{
+    width: 540px;
+    height: 550px;
+}
 
 
 
@@ -139,6 +181,15 @@ body{
     .banner-type input{
         width: 264px;
         
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin:120px 20px ;
+    }
+    .container-img img{
+        width: 100%;
+        height: 550px;
     }
 }
 
@@ -182,5 +233,19 @@ body{
     .banner-type button{
         width: 364px;
         height: 50px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin:120px 20px ;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin:120px 20px ;
+    }
+    .container-img img{
+        width: 100%;
+        height: 550px;
     }
 }
