@@ -287,19 +287,19 @@ body{
 }
 .Choose-card{
     display: flex;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 20px;
 
 }
 .card-1{
-    width: 500px;
+    width: 580px;
     height: 284px;
     box-sizing: border-box;
     border: 1px solid rgba(251, 181, 99, 0.2);
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
     padding-left:50px ;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 .card-1 a i{
     font-size: 50px;
@@ -318,7 +318,7 @@ body{
     margin-top: 10px;
 }
 .card-2{
-    width: 540px;
+    width: 580px;
     height: 284px;
     box-sizing: border-box;
     border: 1px solid rgba(251, 181, 99, 0.2);
@@ -352,7 +352,7 @@ body{
     border-radius: 16px;
     background: rgba(251, 181, 99, 0.05);
     padding-left:50px ;
-    margin-left: 320px;
+    margin-left: 410px;
 }
 .card-3 a i{
     font-size: 50px;
@@ -371,9 +371,227 @@ body{
     font-weight: 400;
     margin-top: 10px;
 }
+.Discounts-card{
+    background-image:url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1140px;
+    height: 500px;
+    margin-left: 8%;
+    position: relative;
+}
+.Discounts-card-1{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    width: 510px;
+    height: 310px;
+    position: absolute;
+    left: 48%;
+    top: 25%;
+}
 
-
-
+.card-icon{
+    display: flex;
+    gap:10px;
+}
+.card-icon a i{
+    color:rgb(255, 84, 0);
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+.card-icon span{
+    color:rgb(90, 90, 93);
+    padding-left: 15px;
+}
+.Discounts-card-1 h3{
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.Discounts-card-1 p{
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.Discounts-card-1 h4{
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.Discounts-card-1 button{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 52px;
+}
+.Discounts-card-second{
+    background-image:url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1140px;
+    height: 500px;
+    margin-left: 8%;
+    position: relative;
+    margin-top: 30px;
+}
+.Discounts-card-2{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    width: 510px;
+    height: 310px;
+    position: absolute;
+    left: 4%;
+    top: 22%;
+}
+.card-icon{
+    display: flex;
+    gap:10px;
+}
+.card-icon a i{
+    color:rgb(255, 84, 0);
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+.card-icon span{
+    color:rgb(90, 90, 93);
+    padding-left: 15px;
+}
+.Discounts-card-2 h3{
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.Discounts-card-2 p{
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.Discounts-card-2 h4{
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.Discounts-card-2 button{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 52px;
+}
+.Discounts-card-third{
+    background-image:url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1140px;
+    height: 500px;
+    margin-left: 8%;
+    position: relative;
+    margin-top: 30px;
+}
+.Discounts-card-3{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    width: 510px;
+    height: 310px;
+    position: absolute;
+    left: 48%;
+    top: 25%;
+}
+.card-icon{
+    display: flex;
+    gap:10px;
+}
+.card-icon a i{
+    color:rgb(255, 84, 0);
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+.card-icon span{
+    color:rgb(90, 90, 93);
+    padding-left: 15px;
+}
+.Discounts-card-3 h3{
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.Discounts-card-3 p{
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.Discounts-card-3 h4{
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.Discounts-card-3 button{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 52px;
+}
+.Discounts-button{
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.Discounts-button button{
+    border-radius: 8px;
+    background-color: rgb(255, 84, 0);
+    border: none;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 167px;
+    height: 50px;
+}
 
 /* moble device */
 @media screen and (max-width:576px){
@@ -489,14 +707,68 @@ body{
     
     }
     .card-1{
-        margin-left: 30px;
+        width: 92%;
+        margin-left: 20px;
+    }
+    .card-2{
+        width: 92%;
+        margin-left: 20px;
     }
     .card-3{
-        margin-left: 10px;
-        margin-right: 30px;
+        width: 92%;
+        margin-left: 20px;
+    
+    }
+    .Discounts-card{
+        width: 92%;
+        margin-left: 25px;
+    }
+    .Discounts-card-1{
+        width:80%;
+        left: 18%;
+        top: 15%;
+    }
+    .card-icon{
+        gap: 2px;
+    }
+    .card-icon a i {
+        padding-left: 2px;
+    }
+    .Discounts-card-second{
+        width: 92%;
+        margin-left: 25px;
+    }
+    .Discounts-card-2{
+        width:80%;
+        left: 18%;
+        top: 15%;
+    }
+    .card-icon{
+        gap: 2px;
+    }
+    .card-icon a i {
+        padding-left: 2px;
+    }
+    .Discounts-card-third{
+        width: 92%;
+        margin-left: 25px;
+    }
+    .Discounts-card-3{
+        width:80%;
+        left: 18%;
+        top: 15%;
+    }
+    .card-icon{
+        gap: 2px;
+    }
+    .card-icon a i {
+        padding-left: 2px;
+    }
+    .Discounts-button{
+        margin-left:180px;
+
     }
 }
-
 
    /* table style  */
 @media screen and (min-width:577px) and (max-width:992px){
@@ -640,5 +912,53 @@ body{
     .card-3{
         margin-left: 30px;
         width: 92%;
+    }
+    .Discounts-card{
+        width: 92%;
+        margin-left: 25px;
+    }
+    .Discounts-card-1{
+        width:80%;
+        left: 18%;
+        top: 15%;
+    }
+    .card-icon{
+        gap:7px;
+    }
+    .card-icon a i {
+        padding-left: 10px;
+    }
+    .Discounts-card-second{
+        width: 92%;
+        margin-left: 25px;
+    }
+    .Discounts-card-2{
+        width:80%;
+        left: 18%;
+        top: 15%;
+    }
+    .card-icon{
+        gap:7px;
+    }
+    .card-icon a i {
+        padding-left: 10px;
+    }
+    .Discounts-card-third{
+        width: 92%;
+        margin-left: 25px;
+    }
+    .Discounts-card-3{
+        width:80%;
+        left: 18%;
+        top: 15%;
+    }
+    .card-icon{
+        gap:7px;
+    }
+    .card-icon a i {
+        padding-left: 10px;
+    }
+    .Discounts-button{
+        margin-left: 270px;
     }
 }
